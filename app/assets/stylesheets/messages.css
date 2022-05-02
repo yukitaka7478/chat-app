@@ -129,6 +129,7 @@
 
 .form{
   background-color: white;
+  display: flex;
   width: 100%;
 }
 
@@ -147,4 +148,18 @@
   padding: 0 20px;
   color: white;
   font-size: 16px;
+}
+
+.form_image{
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden{
+  display: none;
 }
