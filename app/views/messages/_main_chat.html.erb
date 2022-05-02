@@ -6,20 +6,7 @@
 </div>
 
 <div class="chat_area">
-  <div class="messages">
-    <div class="name_time">
-      <div class="user_name">Tom</div>
-      <div class="chat_time">2020/01/01() 12:34:56</div>
-    </div>
-    <div class="chat_message">hello</div>
-  </div>
-  <div class="messages">
-    <div class="name_time">
-      <div class="user_name">Tom</div>
-      <div class="chat_time">2020/01/01() 12:34:56</div>
-    </div>
-    <div class="chat_message">hello</div>
-  </div>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 
