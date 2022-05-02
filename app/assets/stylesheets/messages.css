@@ -123,4 +123,28 @@
   height: 90px;
   background-color: #dddddd;
   padding: 20px 40px;
+  display: flex;
+  align-items: center;
+}
+
+.form{
+  background-color: white;
+  width: 100%;
+}
+
+.form_message{
+  border: none;
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+}
+
+.post_btn{
+  height: 50px;
+  background-color: #38aef0;
+  border: none;
+  margin-left: 15px;
+  padding: 0 20px;
+  color: white;
+  font-size: 16px;
 }
